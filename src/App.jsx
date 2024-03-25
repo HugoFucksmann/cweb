@@ -1,14 +1,18 @@
-import UiBorder from "./components/uiBorder/UiBorder";
 import Landing from "./pages/landing/landing";
 import Planes from "./pages/planes/planes";
-import SectionWindow from "./pages/sectionWindow/SectionWindow";
+import SectionDos from "./pages/sectionDos/SectionDos";
+
 function App() {
   return (
-    <>
-      <Landing />
-      <SectionWindow />
+    <div>
+      {/*  <Landing /> */}
+      {/*   <SectionWindow />
+      
       <Planes />
-    </>
+      <CardSlider /> */}
+      <Landing />
+      {/*  <SectionDos /> */}
+    </div>
   );
 }
 
