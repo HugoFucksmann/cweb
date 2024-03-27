@@ -9,6 +9,7 @@ const SectionLayout = (props) => {
         height: "100vh",
         backgroundColor: "#ebebeb",
       }}
+      {...props}
     >
       {props.children}
     </section>

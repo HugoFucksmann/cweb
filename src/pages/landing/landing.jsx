@@ -19,7 +19,7 @@ const Landing = () => {
   };
 
   return (
-    <SectionLayout section={"inicio"}>
+    <SectionLayout section={"landing"}>
       <div
         style={{
           display: "flex",
